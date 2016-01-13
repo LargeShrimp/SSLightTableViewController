@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8405A7CE1C46660100FBEDEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405A7CD1C46660100FBEDEA /* main.m */; };
+		8405A7D11C46660100FBEDEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405A7D01C46660100FBEDEA /* AppDelegate.m */; };
+		8405A7D41C46660100FBEDEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405A7D31C46660100FBEDEA /* ViewController.m */; };
+		8405A7D71C46660100FBEDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8405A7D51C46660100FBEDEA /* Main.storyboard */; };
+		8405A7D91C46660100FBEDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8405A7D81C46660100FBEDEA /* Assets.xcassets */; };
+		8405A7DC1C46660100FBEDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8405A7DA1C46660100FBEDEA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8405A7C91C46660100FBEDEA /* SSLightTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLightTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8405A7CD1C46660100FBEDEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8405A7CF1C46660100FBEDEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8405A7D01C46660100FBEDEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8405A7D21C46660100FBEDEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8405A7D31C46660100FBEDEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8405A7D61C46660100FBEDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8405A7D81C46660100FBEDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8405A7DB1C46660100FBEDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8405A7DD1C46660100FBEDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8405A7C61C46660100FBEDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8405A7C01C46660100FBEDEA = {
+			isa = PBXGroup;
+			children = (
+				8405A7CB1C46660100FBEDEA /* SSLightTableViewController */,
+				8405A7CA1C46660100FBEDEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8405A7CA1C46660100FBEDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8405A7C91C46660100FBEDEA /* SSLightTableViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8405A7CB1C46660100FBEDEA /* SSLightTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8405A7CF1C46660100FBEDEA /* AppDelegate.h */,
+				8405A7D01C46660100FBEDEA /* AppDelegate.m */,
+				8405A7D21C46660100FBEDEA /* ViewController.h */,
+				8405A7D31C46660100FBEDEA /* ViewController.m */,
+				8405A7D51C46660100FBEDEA /* Main.storyboard */,
+				8405A7D81C46660100FBEDEA /* Assets.xcassets */,
+				8405A7DA1C46660100FBEDEA /* LaunchScreen.storyboard */,
+				8405A7DD1C46660100FBEDEA /* Info.plist */,
+				8405A7CC1C46660100FBEDEA /* Supporting Files */,
+			);
+			path = SSLightTableViewController;
+			sourceTree = "<group>";
+		};
+		8405A7CC1C46660100FBEDEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8405A7CD1C46660100FBEDEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8405A7C81C46660100FBEDEA /* SSLightTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8405A7E01C46660100FBEDEA /* Build configuration list for PBXNativeTarget "SSLightTableViewController" */;
+			buildPhases = (
+				8405A7C51C46660100FBEDEA /* Sources */,
+				8405A7C61C46660100FBEDEA /* Frameworks */,
+				8405A7C71C46660100FBEDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLightTableViewController;
+			productName = SSLightTableViewController;
+			productReference = 8405A7C91C46660100FBEDEA /* SSLightTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8405A7C11C46660100FBEDEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = taitanxiami;
+				TargetAttributes = {
+					8405A7C81C46660100FBEDEA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8405A7C41C46660100FBEDEA /* Build configuration list for PBXProject "SSLightTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8405A7C01C46660100FBEDEA;
+			productRefGroup = 8405A7CA1C46660100FBEDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8405A7C81C46660100FBEDEA /* SSLightTableViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8405A7C71C46660100FBEDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8405A7DC1C46660100FBEDEA /* LaunchScreen.storyboard in Resources */,
+				8405A7D91C46660100FBEDEA /* Assets.xcassets in Resources */,
+				8405A7D71C46660100FBEDEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8405A7C51C46660100FBEDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8405A7D41C46660100FBEDEA /* ViewController.m in Sources */,
+				8405A7D11C46660100FBEDEA /* AppDelegate.m in Sources */,
+				8405A7CE1C46660100FBEDEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8405A7D51C46660100FBEDEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8405A7D61C46660100FBEDEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8405A7DA1C46660100FBEDEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8405A7DB1C46660100FBEDEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8405A7DE1C46660100FBEDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8405A7DF1C46660100FBEDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8405A7E11C46660100FBEDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLightTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taitanxiami.SSLightTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8405A7E21C46660100FBEDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLightTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taitanxiami.SSLightTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8405A7C41C46660100FBEDEA /* Build configuration list for PBXProject "SSLightTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8405A7DE1C46660100FBEDEA /* Debug */,
+				8405A7DF1C46660100FBEDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8405A7E01C46660100FBEDEA /* Build configuration list for PBXNativeTarget "SSLightTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8405A7E11C46660100FBEDEA /* Debug */,
+				8405A7E21C46660100FBEDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8405A7C11C46660100FBEDEA /* Project object */;
+}
