@@ -13,6 +13,11 @@
 		8405A7D71C46660100FBEDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8405A7D51C46660100FBEDEA /* Main.storyboard */; };
 		8405A7D91C46660100FBEDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8405A7D81C46660100FBEDEA /* Assets.xcassets */; };
 		8405A7DC1C46660100FBEDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8405A7DA1C46660100FBEDEA /* LaunchScreen.storyboard */; };
+		8405A7E91C46664300FBEDEA /* SSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405A7E71C46664300FBEDEA /* SSTableViewCell.m */; };
+		8405A7EA1C46664300FBEDEA /* SSTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8405A7E81C46664300FBEDEA /* SSTableViewCell.xib */; };
+		8405A7ED1C46678100FBEDEA /* SSTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405A7EC1C46678100FBEDEA /* SSTableViewDataSource.m */; };
+		8405A7F01C4667D500FBEDEA /* CustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405A7EF1C4667D500FBEDEA /* CustomModel.m */; };
+		8405A7F31C46722000FBEDEA /* SSTableViewCell+ConfigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405A7F21C46722000FBEDEA /* SSTableViewCell+ConfigCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		8405A7D81C46660100FBEDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8405A7DB1C46660100FBEDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8405A7DD1C46660100FBEDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8405A7E61C46664300FBEDEA /* SSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTableViewCell.h; sourceTree = "<group>"; };
+		8405A7E71C46664300FBEDEA /* SSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTableViewCell.m; sourceTree = "<group>"; };
+		8405A7E81C46664300FBEDEA /* SSTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSTableViewCell.xib; sourceTree = "<group>"; };
+		8405A7EB1C46678100FBEDEA /* SSTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTableViewDataSource.h; sourceTree = "<group>"; };
+		8405A7EC1C46678100FBEDEA /* SSTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTableViewDataSource.m; sourceTree = "<group>"; };
+		8405A7EE1C4667D500FBEDEA /* CustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModel.h; sourceTree = "<group>"; };
+		8405A7EF1C4667D500FBEDEA /* CustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModel.m; sourceTree = "<group>"; };
+		8405A7F11C46722000FBEDEA /* SSTableViewCell+ConfigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSTableViewCell+ConfigCell.h"; sourceTree = "<group>"; };
+		8405A7F21C46722000FBEDEA /* SSTableViewCell+ConfigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSTableViewCell+ConfigCell.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +72,13 @@
 		8405A7CB1C46660100FBEDEA /* SSLightTableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8405A7E51C46662A00FBEDEA /* Views */,
+				8405A7E41C46662300FBEDEA /* Controllers */,
+				8405A7E31C46661B00FBEDEA /* Model */,
 				8405A7CF1C46660100FBEDEA /* AppDelegate.h */,
 				8405A7D01C46660100FBEDEA /* AppDelegate.m */,
-				8405A7D21C46660100FBEDEA /* ViewController.h */,
-				8405A7D31C46660100FBEDEA /* ViewController.m */,
+				8405A7EB1C46678100FBEDEA /* SSTableViewDataSource.h */,
+				8405A7EC1C46678100FBEDEA /* SSTableViewDataSource.m */,
 				8405A7D51C46660100FBEDEA /* Main.storyboard */,
 				8405A7D81C46660100FBEDEA /* Assets.xcassets */,
 				8405A7DA1C46660100FBEDEA /* LaunchScreen.storyboard */,
@@ -77,6 +94,36 @@
 				8405A7CD1C46660100FBEDEA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8405A7E31C46661B00FBEDEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8405A7EE1C4667D500FBEDEA /* CustomModel.h */,
+				8405A7EF1C4667D500FBEDEA /* CustomModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8405A7E41C46662300FBEDEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8405A7D21C46660100FBEDEA /* ViewController.h */,
+				8405A7D31C46660100FBEDEA /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8405A7E51C46662A00FBEDEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8405A7E61C46664300FBEDEA /* SSTableViewCell.h */,
+				8405A7E71C46664300FBEDEA /* SSTableViewCell.m */,
+				8405A7E81C46664300FBEDEA /* SSTableViewCell.xib */,
+				8405A7F11C46722000FBEDEA /* SSTableViewCell+ConfigCell.h */,
+				8405A7F21C46722000FBEDEA /* SSTableViewCell+ConfigCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8405A7DC1C46660100FBEDEA /* LaunchScreen.storyboard in Resources */,
+				8405A7EA1C46664300FBEDEA /* SSTableViewCell.xib in Resources */,
 				8405A7D91C46660100FBEDEA /* Assets.xcassets in Resources */,
 				8405A7D71C46660100FBEDEA /* Main.storyboard in Resources */,
 			);
@@ -150,7 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8405A7D41C46660100FBEDEA /* ViewController.m in Sources */,
+				8405A7E91C46664300FBEDEA /* SSTableViewCell.m in Sources */,
+				8405A7F31C46722000FBEDEA /* SSTableViewCell+ConfigCell.m in Sources */,
+				8405A7F01C4667D500FBEDEA /* CustomModel.m in Sources */,
 				8405A7D11C46660100FBEDEA /* AppDelegate.m in Sources */,
+				8405A7ED1C46678100FBEDEA /* SSTableViewDataSource.m in Sources */,
 				8405A7CE1C46660100FBEDEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
